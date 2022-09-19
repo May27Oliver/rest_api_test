@@ -1,0 +1,50 @@
+.todoWrap{
+    margin:auto;
+}
+
+.listContainer{
+    margin:auto;
+}
+
+.button{
+    line-height:10px;
+}
+
+.todoItem{
+    width:300px;
+    background:rgb(5, 91, 100);
+    color:rgb(88, 228, 244);
+    border-radius:10px;
+    margin:10px auto;
+    line-height:80px;
+    display:flex;
+    padding:0 0 0 10px;
+    display:flex;
+    align-items:center
+}
+
+.loading,.message{
+    text-align:center;    
+    color:rgb(88, 228, 244);
+}
+.message{
+    line-height:40px;
+    cursor:pointer;
+}
+
+.decoration{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:rgb(88, 228, 244);
+    margin:0 10px 0 0;
+}
+
+.topRocket{
+    position:fixed;
+    font-weight:bold;
+    color:rgb(88, 228, 244);
+    right:50px;
+    bottom:40px;
+    cursor:pointer;
+}

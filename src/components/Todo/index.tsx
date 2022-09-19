@@ -34,6 +34,7 @@ const Todo: React.FC<TodoType> = ({ type, sort, direction }) => {
                 observerRef.current.observe(node)
             }
         },
+        // eslint-disable-next-line
         [loading, dispatch]
     )
     const goToTop = () => {
@@ -47,6 +48,7 @@ const Todo: React.FC<TodoType> = ({ type, sort, direction }) => {
             dispatch(fetchTodoList({ page, type, sort, direction }))
             renderTime.current = page
         }
+        // eslint-disable-next-line
     }, [page, dispatch])
 
     useEffect(() => {

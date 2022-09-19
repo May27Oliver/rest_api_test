@@ -15,10 +15,14 @@
 
 ## Local build and start time
 
+develop
+
+`npm install`
+
 run
 
 `npm start`
 
 build
 
-`npm build`
+`npm run build`

@@ -46,7 +46,7 @@ type InitialState = {
     todoList: TodoList | []
     page: number
     error: Error | null
-    keepRolling: boolean
+    keepRolling: boolean //如果回傳了空陣列KeepRolling就會制止再發API
 }
 
 const initialState: InitialState = {

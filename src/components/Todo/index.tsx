@@ -34,8 +34,7 @@ const Todo: React.FC<TodoType> = ({ type, sort, direction }) => {
                 observerRef.current.observe(node)
             }
         },
-        // eslint-disable-next-line
-        [loading, dispatch]
+        [loading, dispatch, keepRolling]
     )
     const goToTop = () => {
         window.scrollTo({
